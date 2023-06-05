@@ -1,1 +1,1 @@
-{"repo_url":"https://repo.galera-manager.com/nexus/repository/galera-manager-release-1804", "repo_host":"", "repo_user":"", "repo_password":"", "use_ssl":false, "use_certbot":false, "reinstall_reset_data":true}
+{"repo_url":"https://repo.galera-manager.com/nexus/repository/galera-manager-release-1804", "repo_host":"", "repo_user":"", "repo_password":"", "use_ssl":false, "use_certbot":false, "reinstall_reset_data":true, "admin_user":"admin", "admin_password":"admin"}
