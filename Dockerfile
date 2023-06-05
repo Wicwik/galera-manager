@@ -11,5 +11,5 @@ RUN apt update && apt upgrade -y
 RUN apt install wget -y
 
 RUN wget https://galeracluster.com/galera-manager/gm-installer && chmod +x gm-installer
-# COPY answers.yaml answers.yaml
-# RUN ./gm-installer install --answers-file answers.yaml --show-command-output
+COPY answers.yaml answers.yaml
+RUN ./gm-installer install --answers-file answers.yaml --show-command-output
