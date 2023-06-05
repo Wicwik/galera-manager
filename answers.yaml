@@ -1,2 +1,1 @@
-# {"repo_url":"", "repo_host":"", "repo_user":"", "repo_password":"", "admin":"admin"}
-{}
+{"repo_url":"https://repo.galera-manager.com/nexus/repository/galera-manager-release-1804", "repo_host":"", "repo_user":"", "repo_password":"", "use_ssl":false}
