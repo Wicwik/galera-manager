@@ -9,6 +9,10 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && apt upgrade -y
 RUN apt install wget -y
+RUN apt install python3 -y
+
+RUN wget https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py
+RUN mv systemctl3.py /usr/bin/systemctl
 
 RUN wget https://galeracluster.com/galera-manager/gm-installer && chmod +x gm-installer
 COPY answers.yaml answers.yaml
